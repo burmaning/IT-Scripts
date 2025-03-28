@@ -1,0 +1,10 @@
+#for transferring large amounts of data from an external HDD or SSD to the mac desktop, used to bypass file transfer limits from Mac
+SOURCE="/Users/xxx/Google Drive/"
+DESTINATION="/Users/xxx/Desktop/"
+
+if [ -d "$SOURCE" ]; then
+    mv "$SOURCE" "$DESTINATION"
+    echo "Folder successfully moved to Desktop."
+else
+    echo "Folder not found at $SOURCE."
+fi
