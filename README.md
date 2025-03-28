@@ -1,3 +1,3 @@
-# IT-Scripts
+Created for HelpDesk, mostly in Powershell, Bash, or Python
 
-IT Scripts :)
+Application automation and other tasks
