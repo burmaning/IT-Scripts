@@ -1,3 +1,4 @@
+#for transferring large amounts of data from an external HDD or SSD to the mac desktop, used to bypass file transfer limits from Mac
 SOURCE="/Users/xxx/Google Drive/"
 DESTINATION="/Users/xxx/Desktop/"
 
