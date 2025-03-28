@@ -1,0 +1,9 @@
+SOURCE="/Users/xxx/Google Drive/"
+DESTINATION="/Users/xxx/Desktop/"
+
+if [ -d "$SOURCE" ]; then
+    mv "$SOURCE" "$DESTINATION"
+    echo "Folder successfully moved to Desktop."
+else
+    echo "Folder not found at $SOURCE."
+fi
